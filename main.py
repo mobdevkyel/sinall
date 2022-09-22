@@ -15,7 +15,7 @@ app = Flask(__name__)
 @app.route("/")
 def homepage():
     #return "meu primeiro site"
-    return render_template("homepage.html")
+    return ("homepage.html")
 
 @app.route("/speedway")
 def geral():
